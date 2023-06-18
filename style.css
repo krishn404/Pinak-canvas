@@ -1,0 +1,45 @@
+body {
+      background: linear-gradient(to bottom, #ffbb00 80%, #ff555a 80%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+	  
+    }
+	
+	.triangle {
+      width: 0;
+      height: 0;
+      border-left: 300px solid transparent;
+      border-right: 300px solid transparent;
+      border-top: 110px solid #ffbb00;
+      position: absolute;
+      bottom: -200px;
+    }
+	.circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #a38f40;
+	  position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #807139;
+      font-size: 48px;
+      font-weight: bold;
+	  
+	}
+	
+	.text {
+      position: absolute;
+      top: -37%;
+      left: 50%;
+	  color: #ffffff;
+      transform: translateX(-50%);
+      font-size: 25px;
+    }
